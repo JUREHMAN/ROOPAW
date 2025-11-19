@@ -1,0 +1,6 @@
+# For the decutilis tools to display the original MC particles list
+1) exe dec_utils.py
+2) f = "file.root"
+3) get treename tree_name
+4) decode(tree_name,"file.root")
+5) printDecs(tree_name, '', 3, 20)
